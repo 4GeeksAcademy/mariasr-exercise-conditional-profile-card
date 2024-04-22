@@ -36,9 +36,7 @@ function render(variables = {}) {
           // <h1>${variables.name} ${variables.lastName}</h1>
           <h2>${variables.role}</h2>
           <h3>${variables.country} ${variables.city}</h3>
-          <ul class="social ${
-            variables.sm_position === "left" ? "social-left" : "social-right"
-          }">
+          <ul class="position-right">
             <li>${
               variables.twitter
             }<a href="https://twitter.com/4geeksacademy"><i class="fab fa-twitter"></i></a></li>
